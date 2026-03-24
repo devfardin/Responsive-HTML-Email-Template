@@ -12,8 +12,8 @@
         style="background-color:#ffffff;">
         <tr>
           <td align="center">
-            <table width="700" cellpadding="0" cellspacing="0" border="0"
-              style="max-width:700px;width:100%;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1b1f29;">
+            <table width="800" cellpadding="0" cellspacing="0" border="0"
+              style="max-width:800px;width:100%;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1b1f29;">
 
               <!-- Logo -->
               <tr>
@@ -49,8 +49,8 @@
 
                         <!-- User Name Here -->
                         <p
-                          style="font-size:16px;margin:0 0 16px;line-height:1.5;">
-                          Hey User_Name,
+                          style="font-size:16px;margin-bottom: 16px;line-height:1.5;">
+                          Hey {{firstName}},
                         </p>
 
                         <!-- Alert block -->
@@ -70,7 +70,7 @@
                         </table>
 
                         <p
-                          style="font-size:16px;margin:0 0 16px;line-height:1.5;">
+                          style="font-size:16px;margin-bottom:16px;line-height:1.5;">
                           As a result, <strong>your profile is offline and not
                             currently visible in search results</strong>,
                           location, or category pages on Tryst.link.
@@ -127,7 +127,7 @@
                         </p>
 
                         <p
-                          style="font-size:16px;margin:0 0 16px;line-height:1.5;">
+                          style="font-size:16px;margin:16px 0;line-height:1.5;">
                           Need some help? Check out our <a
                             href="https://help.tryst.link" rel="noreferrer"
                             target="_blank"
@@ -244,8 +244,10 @@
                   <p
                     style="font-size:10px;margin:0;line-height:18px;color:#3d5c5c;text-align:center;">
                     We sent this email to <a
-                      href="mailto:priyomahmud19@gmail.com" rel="noreferrer"
-                      target="_blank">priyomahmud19@gmail.com</a><br>
+                      href="mailto:{{email}}" rel="noreferrer"
+                      target="_blank">
+                      {{email}}
+                    </a><br>
                     Tryst.link | Melbourne, Victoria, Australia
                   </p>
                 </td>
